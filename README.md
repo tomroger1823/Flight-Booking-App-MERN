@@ -1,6 +1,6 @@
 # Flight Booking Application
 
-FlightEase is an application that allows users to search for flights, make bookings, and manage their profiles with ease. This README provides an overview of the app's features and user flow.
+Myflight is an application that allows users to search for flights, make bookings, and manage their profiles with ease. This README provides an overview of the app's features and user flow.
 
 # Naan Mudhalvan: Flight Booking Application
 
