@@ -1,1 +1,1 @@
-# Flight-Booking-App--MERN
+# Flight-Booking-App-MERN
