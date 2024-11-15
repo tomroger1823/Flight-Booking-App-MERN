@@ -41,7 +41,7 @@ We are the students of **Computer Science and Engineering** (CSE) department pur
 
 ## User Flow
 
-1. **Start**: Users open the FlightEase app to begin their flight search.
+1. **Start**: Users open the Myflight app to begin their flight search.
 2. **Home Page**: Users land on the homepage, where they can enter their departure and destination cities, travel dates, and preferences.
 3. **Search Results**: Users can view the available flights based on their search criteria, including filters for class, price, airline, and departure times.
 4. **Flight Selection**: Users select a flight from the search results, which provides more details like departure time, arrival time, and price.
