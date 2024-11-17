@@ -6,7 +6,7 @@ Myflight is an application that allows users to search for flights, make booking
 
 This project is developed as part of the Naan Mudhalvan Program. The course is MERN Stack Powered by MongoDB (subject code: NM1042), conducted for Tagore Engineering College (College Code: 4127). The platform is built using the MERN (MongoDB, Express, React, Node.js) stack.
 
-**Project Report:** [View the full project report (PDF)](https://raw.githubusercontent.com/tomroger1823/Flight-Booking-App-MERN/main/<path-to-file>.pdf)
+**Project Report:** [View the full project report (PDF)](https://raw.githubusercontent.com/tomroger1823/Flight-Booking-App-MERN/main/Flight-Booking-App-MERN Report.pdf)
 
 ## Team Members
 
