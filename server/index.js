@@ -14,7 +14,7 @@ app.use(cors());
 
 // mongoose setup
 
-const PORT = 6001;
+const PORT = process.env.PORT || 6001;
 // mongoose.connect('mongodb://localhost:27017/FlightBookingMERN', { 
 //         useNewUrlParser: true,
 //         useUnifiedTopology: true,
