@@ -6,6 +6,16 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import GeneralContextProvider from './context/GeneralContext';
 
+const apiUrl = process.env.REACT_APP_API_URL;
+
+fetch(`${apiUrl}/endpoint`, {
+    method: 'GET',
+})
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error('Error:', error));
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
