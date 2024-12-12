@@ -12,6 +12,15 @@ app.use(bodyParser.json({limit: "30mb", extended: true}))
 app.use(bodyParser.urlencoded({limit: "30mb", extended: true}));
 app.use(cors());
 
+const apiUrl = process.env.REACT_APP_API_URL;
+
+fetch(`${apiUrl}/endpoint`, {
+    method: 'GET',
+})
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error('Error:', error));
+
 // mongoose setup
 
 const PORT = process.env.PORT || 6001;
