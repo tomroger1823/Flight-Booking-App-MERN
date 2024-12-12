@@ -12,14 +12,17 @@ app.use(bodyParser.json({limit: "30mb", extended: true}))
 app.use(bodyParser.urlencoded({limit: "30mb", extended: true}));
 app.use(cors());
 
-const apiUrl ='https://flight-booking-app-mern-cbu7.vercel.app';
+const API_URL = process.env.REACT_APP_API_URL;
 
-fetch(`${apiUrl}/endpoint`, {
-    method: 'GET',
+fetch(`${API_URL}/api/endpoint`, {
+  method: 'GET',
+  headers: {
+    'Content-Type': 'application/json',
+  },
 })
-    .then(response => response.json())
-    .then(data => console.log(data))
-    .catch(error => console.error('Error:', error));
+  .then((response) => response.json())
+  .then((data) => console.log(data))
+  .catch((error) => console.error('Error:', error));
 
 // mongoose setup
 
