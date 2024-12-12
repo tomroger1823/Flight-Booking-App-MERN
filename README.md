@@ -107,7 +107,7 @@ Open another terminal in VS Code and run the following commands to install the n
     npm install      # install the required packages
     node server.js   # or use nodemon for automatic restarts with `nodemon server.js`
 ```
-The backend server will start on **PORT 5000** by default. You can adjust this setting in the .env file if needed.
+The backend server will start on **PORT 6001** by default. You can adjust this setting in the .env file if needed.
 
 ---
 
