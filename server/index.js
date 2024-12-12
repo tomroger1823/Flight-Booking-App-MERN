@@ -12,7 +12,7 @@ app.use(bodyParser.json({limit: "30mb", extended: true}))
 app.use(bodyParser.urlencoded({limit: "30mb", extended: true}));
 app.use(cors());
 
-const apiUrl = process.env.REACT_APP_API_URL;
+const apiUrl = process.env.apiUrl;
 
 fetch(`${apiUrl}/endpoint`, {
     method: 'GET',
