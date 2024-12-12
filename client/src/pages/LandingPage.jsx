@@ -269,7 +269,7 @@ const LandingPage = () => {
                 &nbsp; &nbsp;&nbsp; &nbsp; With our Flight ticket booking app, you can embrace the joy of exploring new destinations, immerse yourself in breathtaking scenery, and create cherished memories along the way. Start your journey today and let us be your trusted companion in making your Flight travel dreams a reality. Experience the convenience, reliability, and comfort that our app offers, and embark on unforgettable Flight adventures with confidence.
             </p>
 
-            <span><h5>2023 SB FlightConnect - &copy; All rights reserved</h5></span>
+            <span><h5>2024 Myflight &copy; All rights reserved</h5></span>
 
         </div>
     </section>
