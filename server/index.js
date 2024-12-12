@@ -12,7 +12,7 @@ app.use(bodyParser.json({limit: "30mb", extended: true}))
 app.use(bodyParser.urlencoded({limit: "30mb", extended: true}));
 app.use(cors());
 
-const apiUrl = process.env.apiUrl;
+const apiUrl ='https://flight-booking-app-mern-cbu7.vercel.app';
 
 fetch(`${apiUrl}/endpoint`, {
     method: 'GET',
