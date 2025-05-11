@@ -1,0 +1,4 @@
+[build]
+  base = "client"
+  command = "CI=false npm run build"
+  publish = "client/build"
