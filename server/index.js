@@ -24,6 +24,16 @@ fetch(`${API_URL}/api/endpoint`, {
   .then((data) => console.log(data))
   .catch((error) => console.error('Error:', error));
 
+//vercel connect setup
+
+const cors = require("cors");
+
+app.use(cors({
+  origin: "https://flight-booking-app-mern-cbu7.vercel.app/",
+  credentials: true
+}));
+
+
 // mongoose setup
 
 const PORT = process.env.PORT || 6001;
