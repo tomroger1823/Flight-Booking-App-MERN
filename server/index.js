@@ -26,8 +26,6 @@ fetch(`${API_URL}/api/endpoint`, {
 
 //vercel connect setup
 
-const cors = require("cors");
-
 app.use(cors({
   origin: "https://flight-booking-app-mern-cbu7.vercel.app/",
   credentials: true
